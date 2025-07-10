@@ -20,20 +20,27 @@ Welcome to **HydroGreen**
 ## 📁 Folder Structure
 
 HydroGreen/
-│
+
 ├── index.html              # Homepage
+
 ├── login.html              # User login
+
 ├── signup.html             # User signup
+
 ├── dashboard.html          # User dashboard (after login)
+
 ├── enroll.html             # Enrollment page
+
 ├── admin.html              # Admin dashboard
-│
+
 ├── css/
 │   └── style.css           # Main stylesheet
-│
+
+
 ├── js/
 │   └── script.js           # (Optional) JS interactivity
-│
+
+
 └── assets/
     └── images/             # Workshop and hydroponics-related images
 
