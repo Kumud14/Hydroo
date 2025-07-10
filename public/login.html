@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Login | HydroGreen</title>
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    body {
+      background: url('bg.png') no-repeat center center fixed;
+      background-size: cover;
+    }
+
+    .login-container {
+      max-width: 400px;
+      margin: 5rem auto;
+      background-color: rgba(255, 255, 255, 0.9);
+      padding: 2rem;
+      border-radius: 1rem;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .login-container h2 {
+      text-align: center;
+      color: #355F2E;
+      margin-bottom: 1.5rem;
+    }
+
+    .login-container form {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+
+    .login-container input {
+      padding: 0.8rem;
+      font-size: 1rem;
+      border-radius: 0.5rem;
+      border: 1px solid #ccc;
+    }
+
+    .login-container button {
+      background-color: #355F2E;
+      color: white;
+      padding: 0.8rem;
+      border: none;
+      border-radius: 0.5rem;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+
+    .login-container button:hover {
+      background-color: #A8CD89;
+    }
+
+    .login-container p {
+      text-align: center;
+      margin-top: 1rem;
+    }
+
+    .login-container a {
+      color: #355F2E;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .login-container a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="login-container">
+    <h2>Login to Your Account</h2>
+    <form action="enroll.html" method="GET">
+      <input type="email" name="email" placeholder="Email" required />
+      <input type="password" name="password" placeholder="Password" required />
+      <button type="submit">Login</button>
+    </form>
+    <p>Don't have an account? <a href="signup.html">Sign up</a></p>
+  </div>
+
+</body>
+</html>
