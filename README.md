@@ -1,8 +1,8 @@
 # Hydro
 
-# 🌱 HydroGreen - Hydroponic Workshop Website
+# 🌱 HydroGreen 
 
-Welcome to **HydroGreen**, an educational and eco-friendly startup offering a **15-day microgreens workshop** with **one-on-one sessions**. This website is designed to help users learn about hydroponics, sign up for workshops, and manage their accounts — all in one place.
+Welcome to **HydroGreen**
 
 ---
 
